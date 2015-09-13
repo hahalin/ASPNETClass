@@ -1,36 +1,17 @@
 ---
 layout: page
-title: Hello World!
-tagline: Supporting tagline
+title: 歡迎來到ASP.NET教室!
+tagline: 以MVC為主，適用初學者
 ---
 {% include JB/setup %}
 
-Read [Jekyll Quick Start](http://jekyllbootstrap.com/usage/jekyll-quick-start.html)
+##簡述
 
-Complete usage and documentation available at: [Jekyll Bootstrap](http://jekyllbootstrap.com)
+會建置這個網站的緣起是想把這陣子的教學內容給系統化的整理系統，讓之後有興趣的朋友可以有個參考，並藉此整合使用了[GitHub](https://github.com)、GitPage以及[Jekyll](https://github.com/jekyll/jekyll)。
 
-## Update Author Attributes
+課程內容以ASP.NET+MVC為主，搭配教學上課時建置的範例專案放置在Github上，讓閱讀這些教學內容時也能透過GitHub下載來自行修改練習，從做中學。
 
-In `_config.yml` remember to specify your own data:
-    
-    title : My Blog =)
-    
-    author :
-      name : Name Lastname
-      email : blah@email.test
-      github : username
-      twitter : username
-
-The theme should reference these variables whenever needed.
-    
-## Sample Posts
-
-This blog contains sample posts which help stage pages and blog data.
-When you don't need the samples anymore just delete the `_posts/core-samples` folder.
-
-    $ rm -rf _posts/core-samples
-
-Here's a sample "posts list".
+##文章清單
 
 <ul class="posts">
   {% for post in site.posts %}
@@ -38,9 +19,6 @@ Here's a sample "posts list".
   {% endfor %}
 </ul>
 
-## To-Do
 
-This theme is still unfinished. If you'd like to be added as a contributor, [please fork](http://github.com/plusjade/jekyll-bootstrap)!
-We need to clean up the themes, make theme usage guides with theme-specific markup examples.
 
 
