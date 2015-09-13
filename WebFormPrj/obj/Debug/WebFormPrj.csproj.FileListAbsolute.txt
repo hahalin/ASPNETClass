@@ -1,0 +1,6 @@
+F:\aspnetClass\WebFormPrj\WebFormPrj\bin\WebFormPrj.dll.config
+F:\aspnetClass\WebFormPrj\WebFormPrj\bin\WebFormPrj.dll
+F:\aspnetClass\WebFormPrj\WebFormPrj\bin\WebFormPrj.pdb
+F:\aspnetClass\WebFormPrj\WebFormPrj\obj\Debug\WebFormPrj.dll
+F:\aspnetClass\WebFormPrj\WebFormPrj\obj\Debug\WebFormPrj.pdb
+F:\aspnetClass\WebFormPrj\WebFormPrj\obj\Debug\WebFormPrj.csprojResolveAssemblyReference.cache
