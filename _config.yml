@@ -1,9 +1,10 @@
 # This is the default format. 
 # For more see: http://jekyllrb.com/docs/permalinks/
 permalink: /:categories/:year/:month/:day/:title 
-
+markdown: kramdown
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
 highlighter: pygments
+#relative_permalinks: true 
 
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
@@ -16,6 +17,9 @@ author :
   github : hahalin
   #twitter : username
   #feedburner : feedname
+
+gems: [Liquid]
+
 
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt 
@@ -31,7 +35,8 @@ production_url :
 #
 JB :
   version : 0.3.0
-
+  #THEME : twitter
+  THEME : bootstrap-3
   # All links will be namespaced by BASE_PATH if defined.
   # Links in your website should always be prefixed with {{BASE_PATH}}
   # however this value will be dynamically changed depending on your deployment situation.
@@ -54,7 +59,8 @@ JB :
   #   - Only the following values are falsy: ["", null, false]
   #   - When setting BASE_PATH it must be a valid url.
   #     This means always setting the protocol (http|https) or prefixing with "/"
-  BASE_PATH :  http://hahalin.github.io/aspnetclass
+  #BASE_PATH :  http://hahalin.github.io/aspnetclass
+  BASE_PATH :  false
 
   # By default, the asset_path is automatically defined relative to BASE_PATH plus the enabled theme.
   # ex: [BASE_PATH]/assets/themes/[THEME-NAME]

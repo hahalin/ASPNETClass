@@ -7,8 +7,9 @@
     <div class="date">
       <span>{{ page.date | date_to_long_string }}</span>
     </div>
+
     <div class="content">
-      {{ content }}
+      {{ page.content | markdownify}}
     </div>
 
   {% unless page.categories == empty %}
