@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "jekyll push github setting"
+title: "jekyll push github default userid and pwd setting"
 description: "筆記使用jekyll新增內容後，在local git要push到github的帳密碼設定"
 category: version-control
 tags: [jekyll,git,github]
