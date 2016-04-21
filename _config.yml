@@ -9,7 +9,7 @@ highlighter: pygments
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
 #
-title : ASP.NET Classroom
+title : BuddaHeart Develop Blog
 tagline: Site Tagline
 author :
   name : Frank
@@ -88,7 +88,7 @@ JB :
   comments :
     provider : disqus
     disqus :
-      short_name : aspnetclass
+      short_name : BuddaHeart Studio Develop Blog
     livefyre :
       site_id : 123
     intensedebate :
@@ -99,7 +99,7 @@ JB :
       width: 580
       colorscheme: light
     duoshuo :
-      short_name : aspnetclass
+      short_name : BuddaHeart Studio Develop Blog
    
   # Settings for analytics helper
   # Set 'provider' to the analytics provider you want to use.
